@@ -90,25 +90,25 @@ div {
     }
 
 
-.quote {
+.quote { /* fill background with white and align text */
   background-color: #e5e7eb;
   align-items: center;
   flex-direction: column;
   padding: 128px 310px;
 }
-  .quote div {
+  .quote div { /* align text properly */
     display: flex;
     flex-direction: column;
     align-items: end;
   }
 
-.cta {
+.cta { /* fill background with white and align prompt */
   background-color: #f9faf8;
   padding: 100px 128px;
   display: flex;
   justify-content: center;
 }
-  .signup {
+  .signup { /* separate button and text */
     background-color: #3882f6;
     padding: 50px 128px;
     border-radius: 8px;
@@ -117,14 +117,14 @@ div {
     align-items: center;
     min-width: 750px;
   }
-    .signup div {
+    .signup div { /* align text */
       display: flex;
       flex-direction: column;
     }
 /* text */
 h1 {
   font-size: 48px;
-  font-weight: 900;
+  font-weight: 900;git@github.com:pizaje/landing-page.git
   color: #f9faf8;
 }
 
