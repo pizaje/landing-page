@@ -51,8 +51,6 @@ div {
     }
   .hero button {
     border: 0;
-    width: 128px;
-    height: 32px;
   }
   .image { /* background of placeholder */
     background-color: #777;
@@ -104,9 +102,25 @@ div {
     align-items: end;
   }
 
-.signup {
-  background-color: #3882f6;
+.cta {
+  background-color: #f9faf8;
+  padding: 100px 128px;
+  display: flex;
+  justify-content: center;
 }
+  .signup {
+    background-color: #3882f6;
+    padding: 50px 128px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 750px;
+  }
+    .signup div {
+      display: flex;
+      flex-direction: column;
+    }
 /* text */
 h1 {
   font-size: 48px;
@@ -137,6 +151,8 @@ h2 {
     color: #f9faf8;
     border: 2px solid #f9faf8;
     border-radius: 8px;
+    width: 128px;
+    height: 32px;
   }
 
 h3, a {
