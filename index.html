@@ -10,17 +10,24 @@
   <title>Odin Landing Page</title>
 </head>
 <body>
+  <div class="body"> <!-- everything inside one div for centering -->
   <div class="header"> <!-- top bar -->
     <h2>Header Logo</h2>
-    <h3>header link one</h3>
-    <h3>header link two</h3>
-    <h3>header link three</h3>
+    <div>
+      <a>header link one</a>
+      <a>header link two</a>
+      <a>header link three</a>
+    </div>
   </div>
-  <div class="header"> <!-- header -->
-    <div class="hero">
-      <h1>This website is awesome</h1>
-      <h3>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</h3>
-      <button>Sign Up</button>
+  <div class="hero"> <!-- header -->
+    <div class="herocontent">
+      <div id="hero"> <!-- needed for gap and text formatting -->
+        <h1>This website is awesome</h1>
+      </div>
+      <div> <!-- needed for gap and text formatting -->
+        <h3>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</h3>
+        <button>Sign Up</button>
+      </div>
     </div>
     <div class="image">
       <h3>this is a placeholder for an image</h3>
@@ -33,15 +40,17 @@
       <div></div>
       <div></div>
       <div></div>
-      <h3>this is some subtext under an illustration or image</h3>
-      <h3>this is some subtext under an illustration or image</h3>
-      <h3>this is some subtext under an illustration or image</h3>
-      <h3>this is some subtext under an illustration or image</h3>
+      <div class="h3"><h3>this is some subtext under an illustration or image</h3></div>
+      <div class="h3"><h3>this is some subtext under an illustration or image</h3></div>
+      <div class="h3"><h3>this is some subtext under an illustration or image</h3></div>
+      <div class="h3"><h3>this is some subtext under an illustration or image</h3></div>
     </div>
   </div>
   <div class="quote"> <!-- quote -->
-    <h4>This is an inspiring quote, or a testimonial for a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</h4>
-    <h2>Thor, God of Thunder</h2>
+    <div> <!-- arrange quote text -->
+      <h4>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</h4>
+      <h2>- Thor, God of Thunder‎ ‎ ‎ ‎ ‎ ‎ ‎ </h2>
+    </div>
   </div>
   <div class="cta"> <!-- call to action -->
     <div class="signup"> 
@@ -54,6 +63,7 @@
   </div>
   <div class="footer"> <!-- footer -->
     <h3>Copyright © The Odin Project 2021</h3>
+  </div>
   </div>
 </body>
 </html>
